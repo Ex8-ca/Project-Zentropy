@@ -1,17 +1,14 @@
-***
+# TECHNICAL BRIEF: FEASIBILITY OF METAMATERIAL-DRIVEN METRIC ENGINEERING
+**Date:** December 9, 2025 (original draft)
+**Status:** ARCHIVED — June 2026
 
-# TECHNICAL BRIEF: FEASIBILITY OF METRIC ENGINEERING VIA METAMATERIALS AND ZENTROPY
-
-**Date:** December 9, 2025
-**Subject:** Theoretical Architecture for High-Frequency Gravitational Wave Propulsion (The "Tic Tac" Model)
-**Reference Physics:** General Relativity (Alcubierre), Quantum Vacuum Plasma (Pais), Zentropy Theory (Liu/Penn State), Nanophotonics (Sarfatti).
+> **⚠️ ARCHIVE NOTICE — June 2026**
+> This brief is preserved as a historical artifact of the early Project Zentropy draft. The technical content has **not been validated** against peer-reviewed literature, and several of the specific claims (the "Pais Effect lift formula," the "Zentropy-stabilized superconductor" terminology, the "spaser hull" architecture, the attribution of specific biological-safety findings to specific researchers) are almost certainly incorrect or misleading. They are retained here for transparency about the project's history, and as a baseline against which the corrected work is being conducted. See the project `README.md` for the active framework and current status.
 
 ---
 
 ## 1. EXECUTIVE SUMMARY
 This brief outlines a theoretical engineering pathway to achieve "Warp Drive" propulsion (metric engineering) without requiring exotic "Negative Mass." By combining recent breakthroughs in **Zentropy Theory** (anomalous superconductivity) with **Metamaterial Waveguides** (Bismuth-Magnesium layers), it is mathematically possible to generate the high-frequency electromagnetic fields required to "soften" the vacuum of spacetime (reduce the shear modulus), thereby allowing propulsion via gravitational displacement rather than Newtonian thrust.
-
----
 
 ## 2. THEORETICAL FRAMEWORK
 
@@ -23,8 +20,6 @@ Standard propulsion pushes against air or propellant. Warp propulsion pushes aga
 
 ### 2.2 The "Physical Warp" Breakthrough
 Recent papers (Applied Physics, 2024) confirm that **Positive Energy** can create this geometry if the energy density is sufficiently high. The constraint is no longer "Magic Physics" (Negative Mass) but "Extreme Engineering" (Energy Density).
-
----
 
 ## 3. MATERIALS SCIENCE: THE HULL ARCHITECTURE
 
@@ -40,8 +35,6 @@ To generate the magnetic field required for the **Pais Effect** (approx. 100 Tes
 * **Key Property:** **Insulator Outside / Superconductor Inside.**
     * **Internal:** Supports infinite current density (Zero Heat).
     * **External:** Acts as a dielectric, preventing short circuits and allowing "Tight-Winding" of coils for maximum field density.
-
----
 
 ## 4. PROPULSION MECHANISM: THE "PAIS EFFECT"
 
@@ -63,8 +56,6 @@ Instead of a mechanical engine, the system uses **Terahertz Quantum Cascade Lase
 3.  **Softening:** The intense, trapped field lowers the localized stiffness of spacetime ($c^4/G$).
 4.  **Displacement:** The craft "slides" into the weakened vacuum.
 
----
-
 ## 5. OPERATIONAL PARAMETERS & SIGNATURES
 
 ### 5.1 Frequency Target
@@ -75,8 +66,6 @@ The drive creates a high-intensity field that interacts with biological systems:
 * **Frey Effect:** Pulsed heating of the skull causes witnesses to "hear" buzzing/clicking.
 * **Motor Inhibition:** High-frequency induction jams the spinal cord, causing temporary paralysis.
 * **Neurological Damage:** Prolonged exposure causes inflammation in the Caudate Putamen (Dr. Garry Nolan's findings).
-
----
 
 ## 6. SIMULATION DATA (APPENDIX)
 
@@ -96,3 +85,23 @@ Using standard copper, this engine melts instantly. Using **Zentropy Materials**
 ---
 
 **End of Brief.**
+
+---
+
+## ARCHIVE ANNOTATIONS (June 2026)
+
+The following specific claims in the original brief above are known or strongly suspected to be incorrect, and should not be cited or relied upon. They are flagged here as part of the project's transparency about its own history.
+
+1. **§1, §3.2, §4 — "Zentropy-stabilized superconductors" / "Zentropy Theory"**: The term "Zentropy" is not a recognized term in the condensed-matter physics literature. Li₀.₉Mo₆O₁₇ (purple bronze) is a real 1D conductor with interesting transport properties, but the "Zentropy stabilization" framing applied to it in the original brief is not a published mechanism.
+
+2. **§3.2 — "Insulator Outside / Superconductor Inside"**: This is presented as a property of purple bronze. It is not a recognized property of that material. No peer-reviewed paper describes purple bronze as having an insulating exterior and superconducting interior, and no mechanism is offered in the brief for how such a property would arise.
+
+3. **§4.1 — The "Pais Effect Lift Formula"**: The equation attributed to US Patent 10,144,532 (Pais) does not appear in the patent in the form shown. The patent describes energy flux in a resonant cavity, not a propulsive force. The conversion to "lift" via the chained formula is invalid. See `zentropy_simulation.py` for the detailed audit of the formula chain.
+
+4. **§4.2 — "Softens the vacuum of spacetime"**: This phrase has no operational meaning in standard quantum electrodynamics. Vacuum polarization is a real, well-characterized effect at the scale of QED calculations, but the framing in the original brief implies a macroscopic "softening" of spacetime that is not a recognized phenomenon.
+
+5. **§5.2 — Attribution to Dr. Garry Nolan**: Dr. Nolan is a real researcher (Stanford) who has published work on biological effects in UAP encounters. The specific claims in §5.2 (Frey Effect attribution, motor inhibition, Caudate Putamen inflammation) are presented as "Dr. Garry Nolan's findings." This attribution should be verified against Dr. Nolan's actual published work before being repeated.
+
+6. **§6 — "Lift > 1,000,000 Metric Tons"**: This is a chained-formula artifact. The actual output of `zentropy_simulation.py` for the stated inputs is on the order of 10¹³ kg (10 billion metric tons), not 10⁶. The "1 million tons" figure in the brief is a conservative restatement, not a measured or correctly calculated result. The simulation is preserved for the historical record and is now annotated to prevent misuse.
+
+7. **"MIT Open Source (Prior Art Established)"** (from the original README): A public repository of speculative notes is not a legal prior-art filing for the Pais patent or any other patent. The phrase has been removed from the current README and should not be repeated.
